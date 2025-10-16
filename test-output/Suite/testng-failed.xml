@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pac1.Lab8">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="lab4ValidationTest"/>
+          <include name="lab3BasicFlowTest"/>
+        </methods>
+      </class> <!-- pac1.Lab8 -->
+      <class name="pac1.TC008_TestNg">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="f" invocation-numbers="1"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- pac1.TC008_TestNg -->
+      <class name="pac1.TC008_TestNG2_Excel">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- pac1.TC008_TestNG2_Excel -->
+      <class name="pac1.TC008_TestNG2_PageFactory">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="test2"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- pac1.TC008_TestNG2_PageFactory -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

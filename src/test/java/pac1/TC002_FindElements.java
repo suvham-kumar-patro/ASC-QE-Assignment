@@ -18,7 +18,7 @@ public class TC002_FindElements {
 		
 		List<WebElement> amazonlinks=driver.findElements(By.tagName("a"));
 		
-		System.out.println("Totle no of links:"+amazonlinks.size());
+		System.out.println("Total no of links:"+amazonlinks.size());
 		
 		for(WebElement link: amazonlinks)
 		{
